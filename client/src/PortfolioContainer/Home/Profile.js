@@ -38,12 +38,24 @@ export default function Profile (){
                             1000,
                             "Front End Developer 🖌",
                             1000,
-                            "React/React Native Dev 📍",
+                            "Learning React 📍",
                             1000,
                         ]}
                         />
                         </h1>
+                        <span className='profile-role-tagline'>
+                            Current student/Dev in progress
+                        </span>
                     </span>
+                </div>
+                <div className='profile-options'>
+                    <button className='btn primary-btn'>
+                        {''}
+                        Hire me {''}
+                    </button>
+                    <a href='https://www.linkedin.com/in/alexis-garc%C3%ADa-delgado-b86a79216/'>
+                        <button className='btn highlighted-btn'>Go to LinkedIn</button>
+                    </a>
                 </div>
             </div>
         </div>
